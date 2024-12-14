@@ -55,7 +55,7 @@ Cited: Not Strong due to data collection from a third-party provider (Amazon Me
 Furthermore the dataset does not contain columns with data of gender, age or residency. 
 
 
-Process Phase
+### Process Phase
 
 The following phase will be completed with the data of the following CSV files. 
 
@@ -65,20 +65,20 @@ The following phase will be completed with the data of the following CSV files.�
 Since the datasets are very small (940 & 413 rows respectively), the cleaning process will be performed with Microsoft Excel. 
 Manipulation and visualization processes will be performed with Google’s Cloud Console: BigQuery and Tableau Public.
 
-Microsoft Excel
-Checked the length of the ID. Every ID has 10 characters length. (dailyActivity_merged1) - Used the =LEN function.
-Removed TrackerDistance since it has exactly the same values as TotalDistance column. - (dailyActivity_merged1)
-Removed LoggedActivitiesDistance due to the fact is has only a few entries. 
-Changed the Id column’s format to Number. - (dailyActivity_merged1)
-Changed the ActivityDate column’s format to Date (MM/DD/YY).  (dailyActivity_merged1)
-Changed the Total Steps column’s format to number. (dailyActivity_merged1)
-Changed the TotalDistance column’s format to number with only 2 decimals. (dailyActivity_merged1)
-Removed the Very/Fairly/Lightly and Sedentary ActiveDistance columns. There will be no part of my analysis.  
-Checked for any outliers in TotalSteps,TotalDistance and Calories. (dailyActivity_merged1) - Used the =MAX function. 
-Assuming TotalDistance’s unit is miles, 28.03 miles/day is high but a normal number for a person to walk/run. (dailyActivity_merged1)
-Highest calories recorded (4.800) it is in range for a typical person doing intense activity (4.000 - 6.000) - (dailyActivity_merged1)
-No outliers in column with summarized minutes (max=1440). - (dailyActivity_merged1)
-Saved the file as DailyActicity_cleaned.csv
+#### Microsoft Excel
+* Checked the length of the ID. Every ID has 10 characters length. (dailyActivity_merged1) - Used the =LEN function.
+* Removed TrackerDistance since it has exactly the same values as TotalDistance column. - (dailyActivity_merged1)
+* Removed LoggedActivitiesDistance due to the fact is has only a few entries. 
+* Changed the Id column’s format to Number. - (dailyActivity_merged1)
+* Changed the ActivityDate column’s format to Date (MM/DD/YY).  (dailyActivity_merged1)
+* Changed the Total Steps column’s format to number. (dailyActivity_merged1)
+* Changed the TotalDistance column’s format to number with only 2 decimals. (dailyActivity_merged1)
+* Removed the Very/Fairly/Lightly and Sedentary ActiveDistance columns. There will be no part of my analysis.  
+* Checked for any outliers in TotalSteps,TotalDistance and Calories. (dailyActivity_merged1) - Used the =MAX function. 
+* Assuming TotalDistance’s unit is miles, 28.03 miles/day is high but a normal number for a person to walk/run. (dailyActivity_merged1)
+* Highest calories recorded (4.800) it is in range for a typical person doing intense activity (4.000 - 6.000) - (dailyActivity_merged1)
+* No outliers in column with summarized minutes (max=1440). - (dailyActivity_merged1)
+* Saved the file as DailyActicity_cleaned.csv
 
 Checked the length of the ID. Every ID has 10 characters length. (sleepDay_merged) - Used the =LEN function.
 Removed the TotalSleepRecords column. This will be no part of my analysis. - (sleepDay_merged)
@@ -86,13 +86,13 @@ Changed the Id column’s format to Number. - (sleepDay_merged)
 Changed the SleepDay column’s format to Date (MM/DD/YY). - (sleepDay_merged)
 Saved the file as SleepDay_cleaned.csv
 
-Google’s Cloud Consone: BigQuery
+#### Google’s Cloud Consone: BigQuery
 
 In BigQuery i created a new project “bellab77”. Inside the project I created a dataset with the name “bb” and 
 then I uploaded the two csv files, DailyActicity_cleaned.csv and SleepDay.csv. 
 
 
-Analyze Phase
+### Analyze Phase
 
 Query for joining the two tables
 SELECT
