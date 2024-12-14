@@ -100,6 +100,8 @@ Inside the project I created a dataset with the name “bb” and then I upload
 ### Analyze Phase
 
 Query for joining the two tables
+
+<blockquote>
 SELECT
   da.Id,
   da.ActivityDate,
