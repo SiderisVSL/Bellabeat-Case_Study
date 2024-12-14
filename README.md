@@ -46,7 +46,7 @@ To answer these questions, the Prepare and Analysis Phases will be completed by 
 * sleepDay_merged.csv
 
 
-### Prepare Phase
+## Prepare Phase
 
 Sršen encourages me to use a specific public dataset: [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)) . Dataset is available by the user [Mobius](https://www.kaggle.com/arashnic). The dataset has a license ([CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)). This Kaggle data set contains personal fitness tracker from thirty FitBit users. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore the user's habits.
 
@@ -63,7 +63,7 @@ Cited: Not Strong due to data collection from a third-party provider (Amazon Me
 Furthermore the dataset does not contain columns with data of gender, age or residency. 
 
 
-### Process Phase
+## Process Phase
 
 The following phase will be completed with the data of the following CSV files. 
 
@@ -101,7 +101,7 @@ In BigQuery i created a new project “bellab77”.
 Inside the project I created a dataset with the name “bb” and then I uploaded the two csv files, DailyActicity_cleaned.csv and SleepDay.csv. 
 
 
-### Analyze Phase
+## Analyze Phase
 
 #### Query for joining the two tables
 
@@ -136,7 +136,7 @@ Inside the project I created a dataset with the name “bb” and then I upload
 ![Screenshot 2024-12-14 at 14 08 59](https://github.com/user-attachments/assets/e0c881b4-d650-4086-8c5a-04494f945257)
 
 
-### Share Phase
+## Share Phase
 
 #### Correlation between TotalSteps and Calories
 <img width="2463" alt="Screenshot 2024-12-13 at 04 50 06" src="https://github.com/user-attachments/assets/afea25fc-d7de-46d7-af8d-85befacccae4" />
@@ -173,7 +173,7 @@ From the analysis of the above 2 scatterplots, it seems that the correlation bet
 The average calorie loss is indeed keeping up with today’s standards. I grouped the average calorie loss by 3 segments. The range between 1.600 - 1.950 calorie loss is a moderate range for women. As we can see from the table, the portion of High Burn consists of 70% (23/33 users), Medium Burn 18% (6/33 users) and Low Burn with 12% (4/33 users). 
 
 
-### Act Phase
+## Act Phase
 
 In the last phase I will provide my team with recommendations  for better marketing strategy. 
 
