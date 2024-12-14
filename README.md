@@ -102,21 +102,51 @@ Inside the project I created a dataset with the name “bb” and then I upload
 Query for joining the two tables
 
 <blockquote>
-  
->SELECT
->  da.Id,
->  da.ActivityDate,
->  da.TotalSteps,
->  da.TotalDistance,
->  da.Calories,
->  sd.TotalMinutesAsleep
->FROM
->  `bellab77.bb.da_cleaned` as da
->inner join 
->  `bellab77.bb.sd_cleaned` as sd
->on 
->  da.Id = sd.Id 
->AND 
->  da.ActivityDate = sd.SleepDay;
+
+SELECT
+  da.Id,
+  da.ActivityDate,
+  da.TotalSteps,
+  da.TotalDistance,
+  da.Calories,
+  sd.TotalMinutesAsleep
+FROM
+  `bellab77.bb.da_cleaned` as da
+INNER JOIN 
+  `bellab77.bb.sd_cleaned` as sd
+ON
+  da.Id = sd.Id
+AND
+  da.ActivityDate = sd.SleepDay;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
