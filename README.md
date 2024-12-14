@@ -136,6 +136,72 @@ Inside the project I created a dataset with the name “bb” and then I upload
 ![Screenshot 2024-12-14 at 14 08 59](https://github.com/user-attachments/assets/e0c881b4-d650-4086-8c5a-04494f945257)
 
 
+### Share Phase
+
+#### Correlation between TotalSteps and Calories
+<img width="2463" alt="Screenshot 2024-12-13 at 04 50 06" src="https://github.com/user-attachments/assets/afea25fc-d7de-46d7-af8d-85befacccae4" />
+
+#### Correlation between TotalDistance and Calories
+<img width="2458" alt="Screenshot 2024-12-13 at 04 50 18" src="https://github.com/user-attachments/assets/4832f0ff-f16f-4bc9-b1b6-cb39a45c4462" />
+
+#### Correlation between ActiveMinutes and Calories
+<img width="2459" alt="Screenshot 2024-12-13 at 04 50 28" src="https://github.com/user-attachments/assets/e7cdda37-28df-40a7-8fb5-65ddcffd15fb" />
+
+The analysis of the first 3 charts about the correlation between ##### Calories and ##### TotalSteps, ##### TotalDistance, ##### ActiveMinutes, clearly shows a positive correlation in all 3 of them. This coincides with the basic principle of physical activity, increased movement leads to higher calorie loss. On the other hand, a few outliers may represent other intense activities and not necessarily exercise. 
+
+#### Group IDs by Activity levels (Low, Medium, High)
+<img width="2460" alt="Screenshot 2024-12-13 at 04 51 10" src="https://github.com/user-attachments/assets/96a93e30-ca13-4292-a8c5-3548db3c7f07" />
+
+The pie chart divides users into three groups based on activity levels - Low, Medium and High Activity. The largest segment of the pie chart consists of Medium Activity users (5.000-10.000 steps). Also High Activity users hold quite a large share. (>10.000 steps). The third and smallest segment is Low Activity users (<5.000 steps)
+
+#### Average of Active Minutes per day
+<img width="2455" alt="Screenshot 2024-12-13 at 04 51 32" src="https://github.com/user-attachments/assets/31ea4222-6a01-4bbd-9d67-35fee7fe5245" />
+
+The above bar-chart illustrates the average Active Minutes of the weekdays. We can identify that the highest activity days are Tuesday with 37,29 minutes and Saturday with 37,12 minutes. The days with the lowest activity minutes are Thursday with 32,17 minutes and Friday with 31,37 minutes. This indicates a drop of physical activity towards the end of week. 
+
+#### Correlation between TotalSteps and Sleep Duration
+<img width="2458" alt="Screenshot 2024-12-13 at 04 51 47" src="https://github.com/user-attachments/assets/f1d2c8bc-6801-4af8-be35-0156fb21ad38" />
+
+#### Correlation between ActiveMinutes and Sleep Duration
+<img width="2462" alt="Screenshot 2024-12-13 at 04 52 20" src="https://github.com/user-attachments/assets/1646a4cb-c5d9-4e53-b0bf-33a5328fe401" />
+
+From the analysis of the above 2 scatterplots, it seems that the correlation between Sleep Duration and TotalSteps/ActiveMinutes has a downward trend line. This indicates a slight negative correlation meaning that as TotalSteps and ActiveMinutes increase, Sleep Duration tends to slightly decrease. Individuals with higher step count, tend to sleep slightly fewer minutes. Also the spread of data points indicates variability. This suggests that step count alone doesn’t increases sleep duration. There are maybe some other factors such as health or lifestyle that affect the duration of sleep.  
+
+#### Does average Calories is keeping up with todays standards? (Low, Medium, High Burn)
+<img width="511" alt="Screenshot 2024-12-13 at 06 37 08" src="https://github.com/user-attachments/assets/8d8d79a9-5ae2-41f3-91ed-237f7bc1ad2e" />
+
+The average calorie loss is indeed keeping up with today’s standards. I grouped the average calorie loss by 3 segments. The range between 1.600 - 1.950 calorie loss is a moderate range for women. As we can see from the table, the portion of High Burn consists of 70% (23/33 users), Medium Burn 18% (6/33 users) and Low Burn with 12% (4/33 users). 
+
+
+### Act Phase
+
+In the last phase I will provide my team with recommendations  for better marketing strategy. 
+
+* Develop campaigns that targets medium activity users to encourage them to be more active
+
+* Create tools to provide a better experience for very active users:
+    * Better and more accurate measurements
+    * Categorized workouts (running, walking, swimming etc) with help for each one
+
+* Tips or help for better performance
+ 
+* Develop  campaigns for low active users that documents the benefits for workouts. A campaing that persuade them “Start from zero”
+
+* Mobile or watch notifications with a summary of workout details (heartbeat, distance, average pace, etc)
+
+* Mobile or watch notifications of workout’s achievements e.g. “1 mile already!” or “Good work! Keep up!”
+
+* Significant workout plans for losing weight based on height, weight, age
+
+* Better and more detailed measurements for sleep. E.g. stages of sleep (REM - Core - Deep)
+
+* Stages of difficulty for workouts. For example 1 - 10, for 1 to be “Very Easy” and 10 to be “Very Hard” or “Pro”
+   
+
+
+
+
+
 
 
 
