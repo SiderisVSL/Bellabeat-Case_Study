@@ -147,7 +147,7 @@ Inside the project I created a dataset with the name “bb” and then I upload
 #### Correlation between ActiveMinutes and Calories
 <img width="2459" alt="Screenshot 2024-12-13 at 04 50 28" src="https://github.com/user-attachments/assets/e7cdda37-28df-40a7-8fb5-65ddcffd15fb" />
 
-The analysis of the first 3 charts about the correlation between ##### Calories and ##### TotalSteps, ##### TotalDistance, ##### ActiveMinutes, clearly shows a positive correlation in all 3 of them. This coincides with the basic principle of physical activity, increased movement leads to higher calorie loss. On the other hand, a few outliers may represent other intense activities and not necessarily exercise. 
+The analysis of the first 3 charts about the correlation between Calories and TotalSteps - TotalDistance - ActiveMinutes, clearly shows a positive correlation in all 3 of them. This coincides with the basic principle of physical activity, increased movement leads to higher calorie loss. On the other hand, a few outliers may represent other intense activities and not necessarily exercise. 
 
 #### Group IDs by Activity levels (Low, Medium, High)
 <img width="2460" alt="Screenshot 2024-12-13 at 04 51 10" src="https://github.com/user-attachments/assets/96a93e30-ca13-4292-a8c5-3548db3c7f07" />
