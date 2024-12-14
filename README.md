@@ -5,6 +5,10 @@ This case study is part of Coursera’s Google Data Analytics Capstone Project.�
 
 I am a junior data analyst working for Bellabeat's marketing analyst team. Bellabeat is a high-tech manufacturer of women's health products. Being a successful small company, they have potential to grow larger in the global smart device market. Urska Srsen, cofounder and CEO of Bellabeat, believes that analyzing smart device fitness data could help unlock new growth opportunities. I've been asked to focus on one of Bellabeat's products and analyze smart device data to gain insight on how consumers use their smart devices. The output will then help guide Bellabeat's marketing strategy. I will present my analysis to the Bellabeat executive team along with my high-level recommendations for their marketing strategy. 
 
+Spreadsheets (cleaned) - link?
+CSVs (Cleaned) - link?
+Tableau Public Dashboard link?
+
 
 ## Ask Phase
 
