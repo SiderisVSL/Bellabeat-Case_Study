@@ -88,8 +88,9 @@ Saved the file as SleepDay_cleaned.csv
 
 #### Google’s Cloud Consone: BigQuery
 
-In BigQuery i created a new project “bellab77”. Inside the project I created a dataset with the name “bb” and 
-then I uploaded the two csv files, DailyActicity_cleaned.csv and SleepDay.csv. 
+In BigQuery i created a new project “bellab77”. 
+
+Inside the project I created a dataset with the name “bb” and then I uploaded the two csv files, DailyActicity_cleaned.csv and SleepDay.csv. 
 
 
 ### Analyze Phase
