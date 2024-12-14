@@ -38,7 +38,7 @@ To answer these questions, the Prepare and Analysis Phases will be completed by 
 
 ### Prepare Phase
 
-Sršen encourages me to use a specific public dataset: [FitBit Fitness Tracker Data]([url](https://www.kaggle.com/datasets/arashnic/fitbit)) . Dataset is available by the user [Mobius]([url](https://www.kaggle.com/arashnic)). The dataset has a license ([CC0: Public Domain]([url](https://creativecommons.org/publicdomain/zero/1.0/))). This Kaggle data set contains personal fitness tracker from thirty FitBit users. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore the user's habits.
+Sršen encourages me to use a specific public dataset: [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)) . Dataset is available by the user [Mobius]((https://www.kaggle.com/arashnic)). The dataset has a license ([CC0: Public Domain]((https://creativecommons.org/publicdomain/zero/1.0/))). This Kaggle data set contains personal fitness tracker from thirty FitBit users. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore the user's habits.
 
 The data will be stored in a generic folder in Google Drive. Inside this folder will be stored every relative file or folder to this case study. All the CSVs with the data provided are in long format. 
 
