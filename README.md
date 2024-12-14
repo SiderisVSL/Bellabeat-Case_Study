@@ -1,4 +1,4 @@
-# Bellabeat-Case_Study
+# Bellabeat-Case-Study
 This case study is part of Coursera’s Google Data Analytics Capstone Project. 
 
 ## Scenario
