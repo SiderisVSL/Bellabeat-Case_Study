@@ -7,7 +7,7 @@ I am a junior data analyst working for Bellabeat's marketing analyst team. Bel
 
 [CSVs (Results)](https://drive.google.com/drive/folders/1LV5z8p8178mVgGfdfgfn5w7ynIH_v8Ta?usp=sharing)
 
-[CSVs (Cleaned)]((https://drive.google.com/drive/folders/1axmDIfaBI13iodEVycJCh5YCyBnsaoKj?usp=sharing)
+[CSVs (Cleaned)](https://drive.google.com/drive/folders/1axmDIfaBI13iodEVycJCh5YCyBnsaoKj?usp=sharing)
 
 [CSVs (Queries)](https://drive.google.com/drive/folders/1jXexcqaC7iXHcrR8FfSBh9PIXemHlu7J?usp=sharing) 
 
