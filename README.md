@@ -107,6 +107,34 @@ Inside the project I created a dataset with the name “bb” and then I upload
 
 ![Screenshot 2024-12-14 at 14 04 14](https://github.com/user-attachments/assets/d65f6c57-a34a-4b4c-9d57-0d041189b921)
 
+#### Group IDs by Activity levels (Low, Medium, High)
+
+![Screenshot 2024-12-14 at 14 05 25](https://github.com/user-attachments/assets/842045e8-36a1-4ad2-849d-0396a18ec3fb)
+
+#### Average of Active Minutes per day
+
+![Screenshot 2024-12-14 at 14 06 06](https://github.com/user-attachments/assets/2bd47caa-da55-4411-bd15-5692dc73888a)
+
+#### Comparison between Lightly Active Minutes and sum of ( Fairly + Very Active MInutes) as IntenseActiveMinutes
+
+![Screenshot 2024-12-14 at 14 06 53](https://github.com/user-attachments/assets/a6de537a-7dbc-4452-ad5e-32a0eae539fb)
+
+#### Does average Calories is keeping up with todays standards? (Low, Medium, High Burn) 
+
+![Screenshot 2024-12-14 at 14 07 38](https://github.com/user-attachments/assets/fd2be884-0467-4b39-a154-005682d50dd9)
+
+#### Correlation between TotalSteps and Sleep Duration
+
+![Screenshot 2024-12-14 at 14 08 32](https://github.com/user-attachments/assets/872f2778-a571-47d9-9272-033bc9b13e8a)
+
+#### Correlation between (Very+Fairly)Active Minutes and Sleep Duration
+
+![Screenshot 2024-12-14 at 14 08 59](https://github.com/user-attachments/assets/e0c881b4-d650-4086-8c5a-04494f945257)
+
+
+
+
+
 
 
 
