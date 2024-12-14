@@ -99,25 +99,20 @@ Inside the project I created a dataset with the name “bb” and then I upload
 
 ### Analyze Phase
 
-Query for joining the two tables
+#### Query for joining the two tables
 
-<blockquote>
+![1 SELECT](https://github.com/user-attachments/assets/854ac43c-7371-4028-b95d-c3fb130f5fd7)
 
-SELECT
-  da.Id,
-  da.ActivityDate,
-  da.TotalSteps,
-  da.TotalDistance,
-  da.Calories,
-  sd.TotalMinutesAsleep
-FROM
-  `bellab77.bb.da_cleaned` as da
-INNER JOIN 
-  `bellab77.bb.sd_cleaned` as sd
-ON
-  da.Id = sd.Id
-AND
-  da.ActivityDate = sd.SleepDay;
+#### Correlation between TotalSteps, TotalDistance, ActiveMinutes and Calories
+
+![Screenshot 2024-12-14 at 14 04 14](https://github.com/user-attachments/assets/d65f6c57-a34a-4b4c-9d57-0d041189b921)
+
+
+
+
+
+
+
 
 
 
